@@ -1,6 +1,9 @@
 module github.com/umputun/reproxy
 
-go 1.23
+go 1.23.0
+
+toolchain go1.23.6
+
 require (
 	github.com/didip/tollbooth/v7 v7.0.2
 	github.com/go-pkgz/lgr v0.11.1
